@@ -1,0 +1,52 @@
+body {
+    color: black;
+    background-color: rgb(211, 241, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+}
+a {
+    color:rgb(91, 91, 238);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+input {
+    width: 50px;
+    height: 50x;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #021f31;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #021f31;
+}
+
+nav a:hover {
+    
+    color: black;
+}
